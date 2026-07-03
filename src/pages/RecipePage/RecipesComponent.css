@@ -1,0 +1,12 @@
+
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+    width: 95%;
+    margin: 30px auto;
+    margin-top: 100px;
+}

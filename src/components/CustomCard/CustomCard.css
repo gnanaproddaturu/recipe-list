@@ -1,0 +1,86 @@
+
+
+
+.recipe-card{
+    width: 320px;
+    height: 500px;
+    border-radius: 18px;
+    background-color: #fff;
+    overflow: hiddenb;
+    box-shadow: 0,8px 20px rgba(0,0,0,0.12);
+     transition: .3s ease;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.recipe-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.2);
+}
+.recipe-content{
+    padding: 18px;
+}
+.recipe-category{
+    display:inline-block;
+    background:#ffe8cc;
+    color:#ff0000;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+    transition: .3s ease;
+}
+.recipe-category:hover{
+    transform: translateY(-5px);
+     box-shadow: 0 0 8px rgba(217, 72, 20, 0.3);
+}
+.recipe-title{
+    margin:15px 0 10px;
+    font-size:24px;
+    color:#222;
+    color: #cd9c9c;
+}
+.recipe-info{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 0;
+    font-size:15px;
+    font-weight:600;
+}
+
+.recipe-btn{
+
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#ff5722;
+    color:whitesmoke;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+.recipe-btn:hover{
+     background:#ef4343;
+    color: rgb(56, 20, 20)
+}
+
+.image-container {
+    position: relative;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 230px;
+    right: 18px;
+
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* .heart-icon:hover {
+    color: crimson;
+    transform: scale(1.2);
+} */
