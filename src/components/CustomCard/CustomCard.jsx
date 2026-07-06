@@ -10,7 +10,6 @@ const CustomCard = ({ img, name, cuisine, difficulty, prepTimeMinutes, rating,id
     const isFavorite = favorites.some((each)=>each.id == id)
     return (
         <div className="recipe-card">
-            {/* <CustomImage width={"100%"} height={220} image={img} /> */}
             <div className="image-container">
                 <CustomImage
                     image={img}

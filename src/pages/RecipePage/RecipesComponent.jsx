@@ -16,7 +16,6 @@ const RecipeComponent = () => {
     const [favorites, setFavorites] = useState(()=>{const saved = localStorage.getItem("favorites")
         return saved ? JSON.parse(saved) : []
      });
-    console.log(recipes)
     useEffect(() => {
         const fetchRecipeData = async () => {
             try {

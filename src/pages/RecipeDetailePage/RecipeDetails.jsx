@@ -66,8 +66,7 @@ const RecipeDetails = () => {
                 </div>
 
                 <div className="backTo-home">
-                    {/* <IoArrowBack className="back-icon" /> */}
-                    <Link to={"/"}>
+                    <Link to={"/recipe"}>
                 <button className="back-btn"> <IoArrowBack className="back-icon" />Back To Home</button>
                     </Link>
                 </div>

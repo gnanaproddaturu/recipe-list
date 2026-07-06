@@ -74,3 +74,25 @@
     color: crimson;
     transform: scale(1.2);
 }
+
+.logout-btn {
+  padding: 10px 22px;
+  background: #ff6b35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #e65a28;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(255, 107, 53, 0.3);
+}
+
+.logout-btn:active {
+  transform: scale(0.96);
+}

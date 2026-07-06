@@ -80,27 +80,3 @@
     transition: 0.3s;
 }
 
-
-/* 
-.heart-icon:hover {
-    color: crimson;
-    transform: scale(1.2);
-} */
-
-/* 
-
-.recipe-card {
-    width: 320px;
-    min-height: 500px;
-    border-radius: 18px;
-    background: #fff;
-    overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0,0,0,.12);
-    transition: .3s ease;
-    padding: 10px;
-}
-
-.image-container img {
-    width: 100%;
-    display: block;
-} */

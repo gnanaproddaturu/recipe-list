@@ -3,8 +3,16 @@ import image from "../../assets/logo.png"
 import "./NavComponent.css"
 import { FiSearch } from "react-icons/fi";
 import { FaHeart } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
+
 
 const NavComponent  =({search ,setSearch, filter,setFilter, favorites})=>{
+
+    const navigate = useNavigate()
+    const logoutHandler = ()=>{
+        localStorage.removeItem("token")
+        navigate("/")
+    }
          
     return(
         <div className="nav-div">
@@ -35,7 +43,7 @@ const NavComponent  =({search ,setSearch, filter,setFilter, favorites})=>{
                 <span>{favorites.length}</span>
                 <FaHeart className="favorit " color={favorites.length>0 ? "red" : "gray"} />
             </div>
-            <h3>login</h3>
+            <button className="logout-btn" onClick={logoutHandler}>logout</button>
         </div>
     )
 }
