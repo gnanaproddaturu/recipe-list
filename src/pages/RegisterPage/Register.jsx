@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../RegisterPage/Register.css"
+import API from "../../api/apiClient";
 
 const Register = () => {
 
@@ -29,7 +30,7 @@ const Register = () => {
             return;
         }
         try {
-            const response = await axios.post("http://localhost:8000/user/user-register", user)
+            const response = await axios.post("/user/user-register", user)
 
             alert(response.data.message);
 

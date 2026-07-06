@@ -7,6 +7,8 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "../LoginPage/Login.css"
+import API from "../../api/apiClient";
+
 
 const Login = () => {
 
@@ -33,8 +35,8 @@ const Login = () => {
 
         try {
 
-            const response = await axios.post(
-                "http://localhost:8000/user/user-login",
+            const response = await API.post(
+                "/user/user-login",
                 loginData
             );
 
