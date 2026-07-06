@@ -36,7 +36,7 @@ const RecipeDetails = () => {
                 <img src={recipe.image} alt={recipe.name} />
             </div>
 
-            {<div className="recipe-info">
+            {<div className="recipe-list">
 
 
                 <div className="recipe-tags">

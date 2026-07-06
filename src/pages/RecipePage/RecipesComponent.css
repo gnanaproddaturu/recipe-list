@@ -10,18 +10,3 @@
     margin: 100px auto 30px;
 }
 
-@media (max-width: 768px) {
-    .recipe-container {
-        gap: 20px;
-        width: 100%;
-        padding: 0 15px;
-    }
-}
-
-
-@media (max-width: 480px) {
-    .recipe-container {
-        gap: 15px;
-        margin-top: 80px;
-    }
-}
