@@ -1,6 +1,5 @@
 
 
-import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../RegisterPage/Register.css"
@@ -30,7 +29,7 @@ const Register = () => {
             return;
         }
         try {
-            const response = await axios.post("/user/user-register", user)
+            const response = await API.post("/user/user-register", user)
 
             alert(response.data.message);
 
